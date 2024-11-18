@@ -13,29 +13,48 @@
     color: var(--main-color);
 }
 
- #logo {
-    width: 61.09px;
-    height: 19px; 
-    top: 30px;
-    left: 50px;
+.main-container {
+    header {
+    width: 1440px;
+    height: 79px;
+    gap: 0px;
+    opacity: 0px;
+    
+    width: 1440px;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    }
 
+    ul {
+        width: Hug (244px)px;
+        height: Hug (35px)px;
+        gap: 68px;
+        opacity: 0px;
+
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .logo {
+        width: 61.09px;
+        height: 19px;
+        gap: 0px;
+        opacity: 0px;    
+
+    
     width: Hug (161.09px)px;
     height: Hug (79px)px;
     padding: 30px 50px 30px 50px;
     gap: 10px;
- }
+    opacity: 0px;
 
-body {
     display: flex;
-    justify-content: center;
-}
+    justify-content: flex-start;  
+    }
+    }
 
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
-}
+
 
 a {
     color: inherit;
