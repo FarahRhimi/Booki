@@ -13,8 +13,7 @@
     color: var(--main-color);
 }
 
-.main-container {
-    header {
+.header {
     width: 1440px;
     height: 79px;
     gap: 0px;
@@ -26,22 +25,13 @@
     box-sizing: border-box;
     }
 
-    ul {
-        width: Hug (244px)px;
-        height: Hug (35px)px;
-        gap: 68px;
-        opacity: 0px;
-
-        display: flex;
-        justify-content: flex-end;
-    }
+.container {
 
     .logo {
         width: 61.09px;
         height: 19px;
         gap: 0px;
         opacity: 0px;    
-
     
     width: Hug (161.09px)px;
     height: Hug (79px)px;
@@ -52,7 +42,19 @@
     display: flex;
     justify-content: flex-start;  
     }
+
+    .hebergements {
+        width: 112px;
+        height: 19px;
+        top: 16px;
+        gap: 0px;
+        opacity: 0px;
+
     }
+}
+
+
+
 
 
 
