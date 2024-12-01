@@ -25,7 +25,7 @@ header {
     }
 
 
-.logo {
+#logo {
     width: 61.09px;
     height: 19px;
 
@@ -68,8 +68,6 @@ font-size: 22px;
 font-weight: 700;
 line-height: 25.83px;
 text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
 margin: 0;
 }
 
@@ -83,14 +81,100 @@ p {
     margin: 0; 
 }
 
-form {
+form { 
     display: flex;
     margin-left: 50px;
     padding-bottom: 20px;
+
+    width: 377px;
+    height: 49px;
+    border-radius: 15px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
 }
 
 fieldset {
-border-radius: 15px 0px 0px 15px;
+    width: 50px;
+    height: 49px;
+    gap: 0px;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid #F2F2F2;
+    opacity: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #F2F2F2;
+
+    margin: 0;
+}
+
+#vector {
+   width: 14px;
+    height: 18px;
+}
+
+#ville {
+    width: 177px;
+    height: 62px;
+    border: 1px solid #F2F2F2;
+    padding-left: 35px; 
+    margin: none;
+}
+
+#submit {
+    width: Hug (132px)px;
+    height: 65px;
+    padding: 15px 16px 15px 16px;
+    gap: 10px;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+    background: #0065FC;
+    color: #FFFFFF;
+    font-size: 18px;
+ 
+    border: 1px solid #0065FC
+}
+
+.conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+
+    margin: 50px;
+    
+}
+
+.conteneur img {
+    width: 22px;
+height: 22px;
+
+padding-left: 1px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.conteneur div {
+    width: Hug (173px)px;
+    height: Fixed (50px)px;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    border-radius: 25px;
+    border: 2px 0px 0px 0px;
+    
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.96px;
+    text-align: left;
+
+
+    border: 2px solid #D9D9D9
 }
 
 

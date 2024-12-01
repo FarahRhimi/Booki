@@ -19,9 +19,8 @@
 
 <body>
     <header>
-                    <div class="logo">
-                    <img src="images/logo/Booki.png" alt="logo bleu Booki en haut à gauche"/>
-                    </div>
+                    <img src="images/logo/Booki.png" alt="logo bleu Booki en haut à gauche" id="logo"/>
+                
                     <nav>
                         <ul>
                     <li><a href="#Hébergements">Hébergements</a></li>
@@ -34,25 +33,34 @@
         <main>
             <section>
                 <div class="headline">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</1>
+            <h1> <strong>Trouvez votre hébergement pour des vacances de rêve</strong></h1>
             <p>En plein centre-ville ou en pleine nature</p>
         </div>
         <div class="form">
             <form action="" method="get">
-
             <fieldset>
-            <img src="images/logo/Vector.png" alt="logo localisation"/>
+            <div>
+                <img src="images/logo/Vector.png" alt="logo localisation" id="vector"/> 
+            </div>
         </fieldset>
 
-        <fieldset>
-            <input type="text" ville="ville">
-            </fieldset>
-            
-            <fieldset>
-            <input type="submit" value="Rechercher"/>
-            </fieldset>
-            </form>
-        </div>
+            <div>
+            <input type="text" ville="ville" id="ville"/> 
+            </div>
+        
+            <div>
+            <input type="submit" value="Rechercher" id="submit"/>
+            </div>
+        </section>
+
+        <section>
+            <div class="conteneur">
+                <h2><strong>Filtres</strong></h2>
+                <div class="box1"><img src="images/Icon (3).png">Économique</div> 
+                <div class="box2"><img src="images/Icon (2).png">Familial</div>
+                <div class="box3"><img src="images/Icon (1).png">Romantique</div>
+                <div class="box4"><img src="images/Icon.png">Nos pépites</div>
+            </div>
         </section>
             
 
