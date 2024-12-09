@@ -321,8 +321,6 @@ padding-top: 30px;
 padding-left: 30px;
 }
 
-
-
 /****** Populaires ***********/
 .populaires {
     width: 350px;
@@ -370,6 +368,32 @@ padding-left: 30px;
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+h5 {
+    font-size: 22px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.Activités {
+    margin-left: 50px;
+}
+
+.Activités .card {
+    width: 300px;
+height: 380px;
+border-radius: 20px 20px 0px 0px;
+
+}
+
+.Activités img {
+    width: 300px;
+height: 380px;
+gap: 0px;
+border-radius: 20px 20px 0px 0px;
+opacity: 0px;
+
+}
 
 
 
