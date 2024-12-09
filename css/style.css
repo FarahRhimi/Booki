@@ -181,7 +181,7 @@ right: 5px;
     border: 2px solid #D9D9D9;
 }
 
-.box :hover {
+.conteneur .box:hover {
     background: #DEEBFF;
 }
 
@@ -191,7 +191,6 @@ margin-bottom: 25px;
 position: relative;
 bottom: 2px;
 }
-
 
 .info {
     margin-bottom: 30px;
