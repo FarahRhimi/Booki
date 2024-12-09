@@ -198,15 +198,11 @@ bottom: 2px;
     
 }
 
-.cercle {
-
-}
 
 .icone {
     margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 30px;
-
 }
 
 
@@ -259,7 +255,43 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+
 }
+
+.cards {
+    width: Fill (250.33px)px;
+    height: Hug (207.25px)px;
+    padding: 0px 0px 15px 0px;
+    gap: 4px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    
+}
+
+.card img {
+
+width: 250.33px;
+height: 124px;
+gap: 0px;
+border-radius: 20px 20px 0px 0px;
+border: 5px 0px 0px 0px, solid #FFFFFF;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 260px 260px 260px;
+    grid-template-rows: 260px 260px 260px;   
+    gap: 20px;
+
+padding-right: 100px;
+padding-top: 30px;
+margin-right: 100;
+
+}
+
+
 
 /****** Populaires ***********/
 .populaires {
