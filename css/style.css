@@ -13,6 +13,18 @@
     color: var(--main-color);
 }
 
+
+html {
+    display: flex;
+    justify-content: center;
+}
+body {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
 header {
     width: 100%;
     height: 79px;
@@ -195,15 +207,28 @@ bottom: 2px;
 .info {
     margin-bottom: 30px;
     margin-top: 30px;
-    margin-left: 50px;
-    
+    margin-left: 30px;
+}
+
+.icone-info {
+    width: 24px; /* Choisis la largeur du cercle */
+    height: 24px; /* La hauteur doit être égale à la largeur */
+    border-radius: 50%;
+    border: 1px solid #D9D9D9;
+
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */   
 }
 
 
 .icone {
+    display: flex; 
+    align-items: center;
     margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 30px;
+    
 }
 
 
@@ -221,10 +246,11 @@ a :hover {
     font-size: 22px;
 }
 
+
+
 .card {
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -272,9 +298,17 @@ h3 {
     
 }
 
+.card-h {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    padding: 5px;
+}
+
+
 .cards {
-    width: Fill (250.33px)px;
-    height: Hug (207.25px)px;
+    width: 25%;
+    height: 207.25px;
     padding: 0px 0px 15px 0px;
     gap: 4px;
     border-radius: 20px 0px 0px 0px;
@@ -284,13 +318,20 @@ h3 {
 }
 
 .card img {
-
-width: 250.33px;
+width: 230px;
 height: 124px;
 gap: 0px;
 border-radius: 20px 20px 0px 0px;
 border: 5px 0px 0px 0px, solid #FFFFFF;
 }
+
+.card-h img {
+    width: 230px;
+    height: 124px;
+    gap: 0px;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px 0px 0px 0px, solid #FFFFFF;
+    }
 
 .cards-container {
     display: flex;
@@ -382,15 +423,14 @@ h5 {
 }
 
 .Activités .card {
-width: 300px;
+width: 275px;
 height: 430px;
 border-radius: 20px 20px 20px 20px;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-
 }
 
 .Activités img {
-width: 300px;
+width: 275px;
 height: 380px;
 border-radius: 20px 20px 0px 0px;
 }
