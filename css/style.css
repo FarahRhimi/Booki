@@ -337,6 +337,7 @@ padding-left: 30px;
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .populaires-cards img {
@@ -344,6 +345,7 @@ padding-left: 30px;
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
 }
 
 .populaires-cards .card-content {
@@ -380,21 +382,46 @@ h5 {
 }
 
 .Activités .card {
-    width: 300px;
-height: 380px;
-border-radius: 20px 20px 0px 0px;
+width: 300px;
+height: 430px;
+border-radius: 20px 20px 20px 20px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 }
 
 .Activités img {
-    width: 300px;
+width: 300px;
 height: 380px;
-gap: 0px;
 border-radius: 20px 20px 0px 0px;
-opacity: 0px;
-
 }
 
+/**** Footer ****/
+footer {
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+background: #F2F2F2;
+    
+}
+
+.colonnes {
+    display: flex;
+    gap: 240px;
+}
+
+.colonnes ul {
+    list-style-type: none;
+}
+
+.colonnes ul :hover {
+    text-decoration: underline;
+}
+
+.colonnes ul li {
+    margin-bottom: 10px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -437,4 +464,7 @@ opacity: 0px;
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+
+    
 }
