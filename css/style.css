@@ -612,19 +612,48 @@ background: #F2F2F2;
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-
-    #logo {
-    width: 61.09px;
-    height: 19px;
-
-    width: Hug (161.09px)px;
-    height: Hug (79px)px;
-    padding: 20px 1px 20px 1px;
-    gap: 10px;
+    header {
+    width: 375px;
+    height: 115px;
 
     display: flex;
-    justify-content: center;  
+    flex-direction: column;
     }
+
+    header #logo {
+        width: 80px;
+        height: 60px;
+        margin-left: 110%;   
+    }
+    
+    header ul {
+        width: 375px;
+        height: 19px;
+        margin-left: 32%;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header li {
+        width: 187.5px;
+        height: 19px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+        nav ul li :hover {
+        color: #0065FC;
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 22px;
+       
+
+    }
+   
+
 
 
 
