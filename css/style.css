@@ -559,9 +559,9 @@ background: #F2F2F2;
        justify-content: center;
         margin-right: 50px;
     }
+
+
     
-
-
     .Activités .card {
         width: 193.5px;
         height: 265px;
@@ -660,10 +660,11 @@ background: #F2F2F2;
         border: none;
     }
    
-    .populaires {
+    section.populaires {
         width: 769px;
         height: auto;
         margin: auto;
+        border-radius: 0%;
 
     }
     
@@ -676,41 +677,100 @@ background: #F2F2F2;
     .populaires-cards {
         display: flex;
         flex-direction: column;
-      
     }
 
-    
+    .populaires-cards .card {
+        width: 718px;
+        height: 160px;
+        border-radius: 20px;
+    }
 
-
-    .hebergements {
-        margin-top: 30px;
+    .populaires-cards .card img {
+        width: 112px;
+        height: 155px;
+        border-radius: 20px 0px 0px 20px;
         
 
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2px;
     }
+
+    section #Hébergements  {
+        width: 769px;
+        margin: auto;
+        background-color: white;
+    }
+
 
     .hebergements div.cards-container {
         display: flex;
         flex-direction: column;
-        margin-right: 30px; 
-       
+        margin-left: -30px;
     }
+
+    .hebergements div.cards-container .card-h {
+        width: 715px;
+        height: 240px;
+        border-radius: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .hebergements div.cards-container .card-h img {
+        width: 100%;     
+        height: 150px;    
+        object-fit: cover;
+    }
+
 
     .Activités {
         display: flex;
         flex-direction: column;
-      
+        margin-top: -40px;
      }
-     
  
- 
-     .Activités .cards-container {
+    .Activités .cards-container {
         display: flex;
         flex-direction: column;
-        margin-left: 30px;
      }
 
+    .Activités .cards-container .card {
+        width: 715px;
+        height: 250px;
+        border-radius: 20px;
+        
+     }
 
+     .Activités .cards-container .card img {
+        width: 715px;
+        height: 80%;
+     }
+     
+     .Activités .cards-container .card-title {
+        margin-left: 20px;
+     }
 
+    .colonnes {
+        display: flex;
+        flex-direction: column;
+        width: 769px;
+
+        height: auto;
+       
+        margin-left: -30px;
+     }
+
+     .colonnes ul {
+        margin-left: 30px;
+        margin-top: 40px;
+
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+        
 
 }
 
