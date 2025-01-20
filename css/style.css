@@ -314,10 +314,9 @@ h3 {
 }
 
 .hebergements .card-h img {
-    width: 250px;
+    width: 100%;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
-    border: 5px 0px 0px 0px, solid #FFFFFF;
     }
 
 .hebergements .cards-container {
@@ -378,7 +377,7 @@ h3 {
 .populaires-cards {
     width: 85%;
     margin-top: -20px;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 5%;
 }
 
@@ -434,23 +433,25 @@ h6.card-title {
 
 .Activités .cards-container {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 60px;
+    
 }
 
 .Activités .cards-container a {
-    width: 23%
+    width: 22%;
 }
 
 .Activités .card {
-width: 300px;
+width: 100%;
 height: 435px;
 border-radius: 20px 20px 20px 20px;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .Activités img {
-width: 300px;
+width: 100%;
 height: 380px;
 border-radius: 20px 20px 0px 0px;
 }
@@ -468,11 +469,12 @@ background: #F2F2F2;
 
 .colonnes {
     display: flex;
-    gap: 240px;
+    justify-content: space-between;
 }
 
 .colonnes ul {
     list-style-type: none;
+    margin-right: 90px;
 }
 
 .colonnes ul :hover {
