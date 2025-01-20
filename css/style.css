@@ -271,6 +271,7 @@ a :hover {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-top: -15px;
 }
 
 .hebergements-and-populaires section {
@@ -288,13 +289,14 @@ h3 {
 }
 
 .hebergements {
-    width: 65%;
+    width: 70%;
     height: 10%;
 
 }
 
 .hebergements .card-h {
-  height: 200px;
+    height: 95%;
+    width: 90%;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -321,8 +323,13 @@ h3 {
 .hebergements .cards-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+}
+
+.hebergements .cards-container a {
+    width:30% 
 }
 
 
@@ -345,15 +352,16 @@ h3 {
     
 }
 
-.Afficher-plus {
-font-size: 18px;
-padding-top: 30px;
-padding-left: 30px;
+.hebergements .Afficher-plus {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
 }
 
 /****** Populaires ***********/
 .populaires {
-   
+    width: 30%;
 }
 
 .logopop {
@@ -370,7 +378,8 @@ padding-left: 30px;
 .populaires-cards {
     width: 85%;
     margin-top: -20px;
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-bottom: 5%;
 }
 
 
@@ -426,7 +435,11 @@ h6.card-title {
 .Activités .cards-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    width: 100%;
+}
+
+.Activités .cards-container a {
+    width: 23%
 }
 
 .Activités .card {
