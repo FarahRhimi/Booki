@@ -283,9 +283,8 @@ a :hover {
 
 /****** Hebergements ***********/
 
-h3 {
+h6{
     font-size: 22px;
-    margin-left: 20px;
 }
 
 .hebergements {
@@ -435,7 +434,7 @@ h6.card-title {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin-left: 60px;
+    margin-left: 5%;
     
 }
 
@@ -490,7 +489,7 @@ background: #F2F2F2;
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 
     .hebergements {
         width: 90%;
@@ -524,7 +523,7 @@ background: #F2F2F2;
     }
 
     .hebergements .card-h {
-    width: 251px;
+    width: 100%;
     height: 206px;
     padding: 5px 5px 5px 5px;
     gap: 4px;
@@ -599,7 +598,7 @@ background: #F2F2F2;
     }
     
     .Activités .card {
-        width: 193.5px;
+        width: 100%;
         height: 265px;
         border-radius: 20px 20px 20px 20px;
     }
@@ -607,14 +606,14 @@ background: #F2F2F2;
     .Activités .cards-container {
         display: flex;
         align-content: center;
-        padding: 30px;
+        padding: 0px;
         margin-bottom: -30px;
-        gap: 45px;
+        gap: 0px;
 
     }
     
     .Activités img {
-    width: 193.5px;
+    width: 100%;
     height: 200px;
     border-radius: 20px 20px 0px 0px;
     }
@@ -652,7 +651,7 @@ background: #F2F2F2;
 
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     header {
     width: 768px;
@@ -704,7 +703,7 @@ background: #F2F2F2;
     }
    
     section.populaires {
-        width: 769px;
+        width: 818px;
         height: auto;
         margin: auto;
         border-radius: 0%;
@@ -720,6 +719,7 @@ background: #F2F2F2;
     .populaires-cards {
         display: flex;
         flex-direction: column;
+        margin-left: 50px;
     }
 
     .populaires-cards .card {
@@ -742,7 +742,6 @@ background: #F2F2F2;
 
     section #Hébergements  {
         width: 769px;
-        margin: auto;
         background-color: white;
     }
 
@@ -750,7 +749,7 @@ background: #F2F2F2;
     .hebergements div.cards-container {
         display: flex;
         flex-direction: column;
-        margin-left: -30px;
+
     }
 
     .hebergements div.cards-container .card-h {
@@ -782,6 +781,7 @@ background: #F2F2F2;
         width: 715px;
         height: 250px;
         border-radius: 20px;
+        margin: 20px;
         
      }
 
@@ -794,13 +794,14 @@ background: #F2F2F2;
         margin-left: 20px;
      }
 
+
+
     .colonnes {
         display: flex;
         flex-direction: column;
         width: 769px;
         height: auto;
-       
-        margin-left: -30px;
+        background: #F2F2F2;
      }
 
      .colonnes ul {
@@ -811,6 +812,8 @@ background: #F2F2F2;
         flex-direction: column;
       
     }
+
+
 
         
 
