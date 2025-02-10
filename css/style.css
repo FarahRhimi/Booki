@@ -705,6 +705,7 @@ background: #F2F2F2;
         border-top: 0px solid #0065FC;
         padding-top: 0px;
         border-color: #0065FC;
+        
     }
 
     header nav ul li a {
@@ -712,6 +713,7 @@ background: #F2F2F2;
         display: flex;
         justify-content: center;
         border-bottom: solid #F2F2F2 2px;
+        padding-bottom: 3%;
     }
 
 
