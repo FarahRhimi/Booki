@@ -163,8 +163,7 @@ fieldset {
 
 .conteneur {
     display: flex;             
-    gap: 15px;                
-    flex-wrap: wrap;           
+    gap: 15px;                      
 }
 
 
@@ -176,8 +175,7 @@ fieldset {
     gap: 8px;                  
     padding: 10px;              
     border-radius: 25px;       
-    border: 2px solid #D9D9D9;  
-    width: auto;              
+    border: 2px solid #D9D9D9;               
     margin: 5px;              
 }
 
@@ -491,8 +489,6 @@ background: #F2F2F2;
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
 
-
-
     
     .hebergements {
         width: 90%;
@@ -518,12 +514,15 @@ background: #F2F2F2;
         align-items: flex-start;
     }
 
-    .hebergements .cards-container {
+
+
+    .hebergements div.cards-container {
         display: flex;
         justify-content: center;
         gap: 20px
-       
+
     }
+
 
     .hebergements .card-h {
     width: 100%;
@@ -745,7 +744,7 @@ background: #F2F2F2;
     padding-left: 35px;
     margin: none;
     }
-    }
+
     
     #submit #submit-text {
         display: none; 
@@ -754,6 +753,29 @@ background: #F2F2F2;
     #submit .search-img {
         display: inline;
     }  
+
+    .conteneur {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filtres {
+        display: block;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 50px;
+    }
+
+    .box { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        text-align: left;
+        border-radius: 25px;
+        border: 2px solid #D9D9D9;
+        margin: 5px;
+        width: 40%;
+    }
 
     .hebergements-and-populaires {
         display: flex;
@@ -769,34 +791,6 @@ background: #F2F2F2;
         border-radius: 0%;
 
     }
-    
-
-    .filtres {
-        display: block;
-        align-items: center;  
-        gap: 10px;           
-    
-        padding-left: 50px;
-    }
-
-    .conteneur {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .box {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        text-align: left;
-        gap: 8px;
-        padding: 10px;
-        border-radius: 25px;
-        border: 2px solid #D9D9D9;
-        width: 40%;
-        margin: 5px;
-    }
-    
     
     .populaires-title {
         display: flex;
@@ -923,7 +917,7 @@ background: #F2F2F2;
       
     }
 
-
+}
 
         
 
