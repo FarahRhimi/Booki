@@ -40,13 +40,12 @@ header {
     width: 61.09px;
     height: 19px;
 
-    width: Hug (161.09px)px;
-    height: Hug (79px)px;
-    padding: 20px 1px 20px 1px;
-    gap: 10px;
+    width: 80px;
+    height: 35px;
+    padding: 20px 1px;
 
-display: flex;
-justify-content: flex-start;  
+    display: flex;
+    justify-content: flex-start;  
 }
 
 .hebergements {
@@ -97,14 +96,17 @@ form {
     border: 1px;
 }
 
+.form {
+    padding-left: 50px;
+}
+
 fieldset {
     width: 50px;
     height: 49px;
     gap: 0px;
     border-radius: 15px 0px 0px 15px;
     border: 1px solid #F2F2F2;
-    opacity: 0px;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,10 +131,9 @@ fieldset {
 }
 
 #submit {
-    width: Hug (132px)px;
+    width: 132px;
     height: 65px;
-    padding: 15px 16px 15px 16px;
-    gap: 10px;
+    padding: 15px 16px;
     border-radius: 0px 15px 15px 0px;
     border: 1px 0px 0px 0px;
 
@@ -740,7 +741,6 @@ background: #F2F2F2;
     height: 62px;
     border: 1px solid #F2F2F2;
     padding-left: 35px;
-    margin: none;
     }
 
     
@@ -804,23 +804,22 @@ background: #F2F2F2;
 
     .populaires-cards .card {
         width: 100%;
-        height: 160px;
+        height: 170px;
         border-radius: 20px;
     }
 
     .populaires-cards .card img {
-        width: 100%;
-        height: 155px;
+        width: 20%;
+        height: 96%;
         border-radius: 20px 0px 0px 20px;
-        
-
-        display: flex;
+        display: flex
+;
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: 2px;
+        margin-left: 4px;
     }
 
-    section #Hébergements  {
+    #Hébergements  {
         width: 100%;
         background-color: white;
         margin: 0%;
@@ -835,7 +834,7 @@ background: #F2F2F2;
     .hebergements div.cards-container {
         display: flex;
         flex-direction: column;
-
+        width: 100%;
     }
 
     .hebergements div.cards-container .card-h {
@@ -846,8 +845,8 @@ background: #F2F2F2;
     }
 
     .hebergements div.cards-container .card-h img {
-        width: 100%;     
-        height: 150px;    
+        width: 100%;
+        height: 165px;
         object-fit: cover;
     }
 
@@ -868,7 +867,7 @@ background: #F2F2F2;
         flex-direction: column;
      }
 
-     .Activités .cards-container a {
+    .Activités .cards-container a {
         width: 100%;
 
     }
@@ -912,8 +911,7 @@ background: #F2F2F2;
 
         display: flex;
         flex-direction: column;
-      
-    }
+     }
 
 }
 
