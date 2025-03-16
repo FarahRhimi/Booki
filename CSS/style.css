@@ -137,9 +137,9 @@ fieldset {
     margin: 0;
 }
 
-#vector {
-   width: 14px;
-    height: 18px;
+.fa-location-dot:before, .fa-map-marker-alt:before {
+    content: "\f3c5";
+    color: black;
 }
 
 #ville {
@@ -638,7 +638,6 @@ footer {
         gap: 40px;
         margin-bottom: 40px;
         width: 95%;
-        
     }
 
     .populaires-cards a {
@@ -801,7 +800,6 @@ footer {
     width: 65px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 10px 10px 0px  rgba(0.3, 0, 0, 0.3)
-
     }
 
     #ville {
@@ -826,7 +824,7 @@ footer {
         border-radius: 20px;
     }
 
-    
+
     #submit #submit-text {
         display: none; 
     }
